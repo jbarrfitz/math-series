@@ -12,3 +12,12 @@ def fibonacci(n):
         return 1
     return fibonacci(n - 2) + fibonacci(n - 1)
 
+
+def lucas(n):
+    """
+    Calculates the nth position of the lucas sequence
+    :param n: the position within the lucas sequence being calculated (zero-indexed)
+    :return: integer at the nth position of the lucas sequence, or zero (0) if
+    argument provided is invalid.
+    """
+    pass
