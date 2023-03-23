@@ -43,3 +43,15 @@ def test_fibonacci_non_numeric():
 
 def test_lucas_exists():
     assert lucas
+
+
+def test_lucas_zero():
+    actual = lucas(0)
+    expected = 2
+    assert actual == expected
+
+
+def test_lucas_one():
+    actual = lucas(1)
+    expected = 1
+    assert actual == expected

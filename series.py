@@ -20,4 +20,5 @@ def lucas(n):
     :return: integer at the nth position of the lucas sequence, or zero (0) if
     argument provided is invalid.
     """
-    pass
+    if n == 0:
+        return 2
