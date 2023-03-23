@@ -24,4 +24,6 @@ def lucas(n):
         return 2
     if n == 1:
         return 1
+    if type(n) != int or n < 0:
+        return 0
     return lucas(n - 2) + lucas(n - 1)
