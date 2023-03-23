@@ -109,3 +109,20 @@ def test_sum_series_three_one_two():
     assert actual == expected
 
 
+def test_sum_series_no_opt_params():
+    actual = sum_series(0)
+    expected = 0
+    assert actual == expected
+
+
+def test_sum_series_no_opt_params_one():
+    actual = sum_series(1)
+    expected = 1
+    assert actual == expected
+
+
+def test_sum_series_no_opt_params_five():
+    actual = sum_series(5)
+    expected = 5
+    assert actual == expected
+
