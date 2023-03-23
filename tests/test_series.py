@@ -55,3 +55,17 @@ def test_lucas_one():
     actual = lucas(1)
     expected = 1
     assert actual == expected
+
+
+def test_lucas_three():
+    actual = lucas(3)
+    expected = 4
+    assert actual == expected
+
+
+def test_lucas_seven():
+    actual = lucas(7)
+    expected = 29
+    assert actual == expected
+
+

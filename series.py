@@ -24,4 +24,4 @@ def lucas(n):
         return 2
     if n == 1:
         return 1
-    
+    return lucas(n - 2) + lucas(n - 1)
