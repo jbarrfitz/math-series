@@ -126,3 +126,21 @@ def test_sum_series_no_opt_params_five():
     expected = 5
     assert actual == expected
 
+
+def test_sum_series_negative():
+    actual = sum_series(-1)
+    expected = 0
+    assert actual == expected
+
+
+def test_sum_series_negative_params():
+    actual = sum_series(0, -1, -4)
+    expected = -1
+    assert actual == expected
+
+
+def test_sum_series_negative_params_recur():
+    actual = sum_series(2, -1, -4)
+    expected = -5
+    assert actual == expected
+    
