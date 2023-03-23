@@ -85,3 +85,7 @@ def test_lucas_non_number():
     actual = lucas("Some random text")
     expected = 0
     assert actual == expected
+
+
+def test_sum_series_exists():
+    assert sum_series
