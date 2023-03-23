@@ -39,3 +39,7 @@ def test_fibonacci_non_numeric():
     actual = fibonacci("Feel the love!")
     expected = 0
     assert actual == expected
+
+
+def test_lucas_exists():
+    assert lucas
