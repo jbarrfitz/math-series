@@ -143,4 +143,11 @@ def test_sum_series_negative_params_recur():
     actual = sum_series(2, -1, -4)
     expected = -5
     assert actual == expected
-    
+
+
+def test_sum_series_invalid_params():
+    actual = sum_series("stuff", 1, 2)
+    expected = 0
+    assert actual == expected
+
+
