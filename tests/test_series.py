@@ -69,3 +69,19 @@ def test_lucas_seven():
     assert actual == expected
 
 
+def test_lucas_negative():
+    actual = lucas(-234)
+    expected = 0
+    assert actual == expected
+
+
+def test_lucas_decimal():
+    actual = lucas(4.43)
+    expected = 0
+    assert actual == expected
+
+
+def test_lucas_non_number():
+    actual = lucas("Some random text")
+    expected = 0
+    assert actual == expected
