@@ -89,3 +89,11 @@ def test_lucas_non_number():
 
 def test_sum_series_exists():
     assert sum_series
+
+
+def test_sum_series_zero_one_two():
+    actual = sum_series(0, 1, 2)
+    expected = 1
+    assert actual == expected
+
+
