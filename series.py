@@ -29,5 +29,16 @@ def lucas(n):
     return lucas(n - 2) + lucas(n - 1)
 
 
-def sum_series():
-    return None
+def sum_series(n, first_num=0, second_num=1):
+    """
+    Calculates the nth position of a fibonacci-like sequence whose first two digits
+    are first_num and second_num.
+    :param n: the position within the sequence to be calculated (zero-indexed)
+    :param first_num: the first number (position 0) of the sequence. Zero (0) if omitted.
+    :param second_num: the second number (position 1) of the sequence. One (1) if omitted.
+    :return: integer at the nth position of the sequence, or zero (0) if invalid argument(s)
+    are provided.
+    """
+    if n == 0:
+        return first_num
+
