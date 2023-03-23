@@ -99,6 +99,13 @@ def test_sum_series_zero_one_two():
 
 def test_sum_series_one_one_two():
     actual = sum_series(1, 1, 2)
-    expected = 1
+    expected = 2
     assert actual == expected
-    
+
+
+def test_sum_series_three_one_two():
+    actual = sum_series(3, 1, 2)
+    expected = 5
+    assert actual == expected
+
+
