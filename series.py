@@ -27,3 +27,7 @@ def lucas(n):
     if type(n) != int or n < 0:
         return 0
     return lucas(n - 2) + lucas(n - 1)
+
+
+def sum_series():
+    return None

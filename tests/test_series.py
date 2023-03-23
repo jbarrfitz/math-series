@@ -1,4 +1,4 @@
-from series import fibonacci, lucas
+from series import fibonacci, lucas, sum_series
 
 
 def test_fibonacci_exists():
